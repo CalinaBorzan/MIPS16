@@ -1,0 +1,10 @@
+So in my MIPS16 I have implemented the possibility to calculate the 5 factorial number. This is what my instructions do that I have written in my Instruction Fetch source. In my project Main Mip is the test_env, here I have made the port maps of all my sources. The code was tested on a Basys3 where this is what you can see: if you press the upper button you reset the counter clock, if you press the middle button you enable the instructions: with each press of the button we move on to another instruction. If we want to change what we want to see on the SSD we work with the first 3 switches on the right side of the board. In the code we can see exactly what each rise of the switches will show. For example if we leave all 0 we see the Instruction ouput, if we make the first 1 we will see the pc_out and so on. The results on the basys are presented in hexa. I will also add here the instructions from instruction fetch and what each of them do:
+        B"000_001_001_001_0_110", -- 0: x0496 Initialize counter (XOR $1, $1, $1)
+        B"100_000_001_0000000",   -- 1:  x8080 Initialize counter with 0 (ADDI $1, $0, 0)
+        B"000_100_100_100_0_110", -- 2:  x1246 Initialize result (XOR $4, $4, $4)
+        B"100_000_100_0000001",   -- 3:  x8201 Initialize result with 1 (ADDI $4, $0, 1)
+        B"010_001_100_0000101",   -- 4:  Loop condition check (BEQ $1, $4, 5)
+        B"111_000_100_0000001",   -- 5:  xE201 Update result if current number is greater (SW $1, 1($4))
+        B"100_001_001_0000010",   -- 6:  Increment counter (ADDI $1, $1, 1)
+        B"001_0000000000011",     -- 7:  Jump back to loop condition check (J 4)
+        others => X"0000"
