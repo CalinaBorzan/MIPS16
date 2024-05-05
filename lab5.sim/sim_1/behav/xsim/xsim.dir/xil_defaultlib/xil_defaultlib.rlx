@@ -1,0 +1,14 @@
+0.6
+2018.3
+Dec  7 2018
+00:33:28
+C:/Users/flori/OneDrive/Desktop/lab5/lab5.srcs/sim_1/new/testbench.vhd,1713866908,vhdl,,,,main_mip_tb,,,,,,,,
+C:/Users/flori/OneDrive/Desktop/lab5/lab5.srcs/sources_1/new/ExecuteUnit.vhd,1713865050,vhdl,,,,executionunit,,,,,,,,
+C:/Users/flori/OneDrive/Desktop/lab5/lab5.srcs/sources_1/new/MainControl.vhd,1713814614,vhdl,,,,controlunit,,,,,,,,
+C:/Users/flori/OneDrive/Desktop/lab5/lab5.srcs/sources_1/new/MainMip.vhd,1713815781,vhdl,C:/Users/flori/OneDrive/Desktop/lab5/lab5.srcs/sim_1/new/testbench.vhd,,,main_mip,,,,,,,,
+C:/Users/flori/OneDrive/Desktop/lab5/lab5.srcs/sources_1/new/instruction_decode.vhd,1713814477,vhdl,,,,instructiondecode,,,,,,,,
+C:/Users/flori/OneDrive/Desktop/lab5/lab5.srcs/sources_1/new/instructionfetch.vhd,1713864511,vhdl,,,,instructionfetch,,,,,,,,
+C:/Users/flori/OneDrive/Desktop/lab5/lab5.srcs/sources_1/new/mem.vhd,1713814406,vhdl,,,,memory,,,,,,,,
+C:/Users/flori/OneDrive/Desktop/lab5/lab5.srcs/sources_1/new/mpg.vhd,1713814348,vhdl,,,,mpg,,,,,,,,
+C:/Users/flori/OneDrive/Desktop/lab5/lab5.srcs/sources_1/new/reg_file2.vhd,1713814315,vhdl,,,,register_file,,,,,,,,
+C:/Users/flori/OneDrive/Desktop/lab5/lab5.srcs/sources_1/new/seven_segment.vhd,1713814223,vhdl,,,,ssd,,,,,,,,

@@ -1,0 +1,25 @@
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto 1cd62b167a8c49398fe493234b9922b2 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot main_mip_tb_behav xil_defaultlib.main_mip_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behavioral of entity xil_defaultlib.MPG [mpg_default]
+Compiling architecture behavioral of entity xil_defaultlib.SSD [ssd_default]
+Compiling architecture behavioral of entity xil_defaultlib.InstructionFetch [instructionfetch_default]
+Compiling architecture behavioral of entity xil_defaultlib.register_file [register_file_default]
+Compiling architecture behavioral of entity xil_defaultlib.InstructionDecode [instructiondecode_default]
+Compiling architecture behavioral of entity xil_defaultlib.ControlUnit [controlunit_default]
+Compiling architecture behavioral of entity xil_defaultlib.ExecutionUnit [executionunit_default]
+Compiling architecture behavioral of entity xil_defaultlib.memory [memory_default]
+Compiling architecture behavioral of entity xil_defaultlib.main_mip [main_mip_default]
+Compiling architecture behavioral of entity xil_defaultlib.main_mip_tb
+Built simulation snapshot main_mip_tb_behav

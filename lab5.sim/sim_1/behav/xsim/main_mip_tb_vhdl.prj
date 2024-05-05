@@ -1,0 +1,15 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../lab5.srcs/sources_1/new/ExecuteUnit.vhd" \
+"../../../../lab5.srcs/sources_1/new/MainControl.vhd" \
+"../../../../lab5.srcs/sources_1/new/MainMip.vhd" \
+"../../../../lab5.srcs/sources_1/new/instruction_decode.vhd" \
+"../../../../lab5.srcs/sources_1/new/instructionfetch.vhd" \
+"../../../../lab5.srcs/sources_1/new/mem.vhd" \
+"../../../../lab5.srcs/sources_1/new/mpg.vhd" \
+"../../../../lab5.srcs/sources_1/new/reg_file2.vhd" \
+"../../../../lab5.srcs/sources_1/new/seven_segment.vhd" \
+"../../../../lab5.srcs/sim_1/new/testbench.vhd" \
+
+# Do not sort compile order
+nosort
